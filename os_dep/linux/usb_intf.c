@@ -147,6 +147,7 @@ static struct usb_device_id rtw_usb_id_tbl[] ={
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x881B),.driver_info = RTL8812},/* Default ID */
 	{USB_DEVICE(USB_VENDER_ID_REALTEK, 0x881C),.driver_info = RTL8812},/* Default ID */
 	/*=== Customer ID ===*/
+	{USB_DEVICE(0x2604, 0x0012),.driver_info = RTL8812}, /* Tenda U12 */
 	{USB_DEVICE(0x0409, 0x0408),.driver_info = RTL8812}, /* NEC - */
 	{USB_DEVICE(0x04BB, 0x0952),.driver_info = RTL8812}, /* I-O DATA - Edimax */
 	{USB_DEVICE(0x050D, 0x1106),.driver_info = RTL8812}, /* Belkin - sercomm */

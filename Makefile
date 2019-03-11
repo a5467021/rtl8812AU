@@ -903,7 +903,7 @@ ARCH ?= $(SUBARCH)
 CROSS_COMPILE ?=
 KVER ?= $(shell uname -r)
 KSRC := /lib/modules/$(KVER)/build
-MODDESTDIR := /lib/modules/$(KVER)/kernel/drivers/net/wireless/
+MODDESTDIR := /lib/modules/$(KVER)/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8812au/
 INSTALL_PREFIX :=
 endif
 
